@@ -8,7 +8,7 @@ permissions:
 
 jobs:
  build:
-   environment: Default
+   environment: claude_api_key
    runs-on: team-01
    steps:
      - uses: actions/setup-node@v7
